@@ -71,7 +71,7 @@ class IndexController extends Controller
 
         print_r($tree_country->export($tree_country));
 
-     //   print_r($tree_country->getTree());
+        print_r($tree_country->getTree());
 
         die;
     }
